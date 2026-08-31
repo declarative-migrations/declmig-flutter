@@ -7,4 +7,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  shared_auth_flutter:
+    git:
+      url: https://github.com/shared-auth/shared-auth-flutter.git
+      ref: bb4e5a441cc8393f5896025e992e24be383fc809
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/branding/app-logo.png
