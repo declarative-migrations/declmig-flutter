@@ -525,8 +525,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "146575c6efb4664138b13ca5c2dc53fda79ffac4"
-      resolved-ref: "146575c6efb4664138b13ca5c2dc53fda79ffac4"
+      ref: "227e1f3048f2687a8976925c84e2b2423cab5bec"
+      resolved-ref: "227e1f3048f2687a8976925c84e2b2423cab5bec"
       url: "https://github.com/shared-auth/shared-auth-flutter.git"
     source: git
     version: "0.1.0"
