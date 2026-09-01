@@ -10,7 +10,7 @@ dependencies:
   shared_auth_flutter:
     git:
       url: https://github.com/shared-auth/shared-auth-flutter.git
-      ref: bb4e5a441cc8393f5896025e992e24be383fc809
+      ref: ff47465d3cd1f1836f31c99b57b1785d5dbe6929
 
 dev_dependencies:
   flutter_test:
