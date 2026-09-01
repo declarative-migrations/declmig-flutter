@@ -276,10 +276,10 @@ packages:
     dependency: transitive
     description:
       name: jni_flutter
-      sha256: "7b717011ea40d04fd47c2731d3d1d36eb99eba3435c2753d62489e8c3c9991d5"
+      sha256: b2310cdd4c18c65c081ab141a41efa94aa26c65431803703ece51996f174f351
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.2"
+    version: "1.0.3"
   jni_util:
     dependency: transitive
     description:
@@ -525,8 +525,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: ff47465d3cd1f1836f31c99b57b1785d5dbe6929
-      resolved-ref: ff47465d3cd1f1836f31c99b57b1785d5dbe6929
+      ref: "146575c6efb4664138b13ca5c2dc53fda79ffac4"
+      resolved-ref: "146575c6efb4664138b13ca5c2dc53fda79ffac4"
       url: "https://github.com/shared-auth/shared-auth-flutter.git"
     source: git
     version: "0.1.0"
