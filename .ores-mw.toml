@@ -1,0 +1,11 @@
+# TJSV-admitted ORES middleware baseline: ORESoftware/ores-middleware@ee75f0a67cf23895500846402fbc757aa0686530.
+schema_version = 1
+repository_mode = "client-only"
+default_target = "client"
+
+[[targets]]
+name = "client"
+role = "client"
+roots = ["."]
+middleware = "propagation-only"
+propagate_headers = ["traceparent", "tracestate", "baggage", "x-request-id"]

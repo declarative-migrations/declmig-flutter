@@ -1,5 +1,7 @@
 # Contract: ores-rate-limit/ores-rl-interfaces@241353d0f5269450690d9646be03db2aba59a2ae
-# Initial fleet adoption is deliberately observe-only/advisory.
+# TJSV validator baseline: ORESoftware/typespec-json-schema-validator@2281843126ab644607b11cf8281d84f382d68dfc.
+# Existing observe-only/advisory semantics are preserved. This client projection contains no server secret references.
+# `.cli-flags.toml` remains flags-2-env's argv/alias/default authority; credential values never belong in CLI flags.
 schemaVersion = "ores.rate-limit.config.v1"
 layout = "client-only"
 defaultPolicyId = "repo-default"
