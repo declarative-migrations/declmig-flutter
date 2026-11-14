@@ -2,7 +2,7 @@ import 'models.dart';
 
 class ApiClient {
   static bool isValidBaseUrl(String baseUrl) {
-    if (baseUrl != baseUrl.trim() || RegExp(r'\\s').hasMatch(baseUrl)) {
+    if (baseUrl != baseUrl.trim() || RegExp(r'\s').hasMatch(baseUrl)) {
       return false;
     }
     final uri = Uri.tryParse(baseUrl);
